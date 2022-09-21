@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <title>SignUP</title>
+  <title>Login Page</title>
 </head>
 <body>
   <nav class="navbar navbar-inverse navbar-fixed-top ">
@@ -53,24 +53,21 @@
   
 
   <div class="container">
-    <h2>SignUp Form</h2>
-    <form action="SignUP" name="signup" method="post">
+    <h2>Login Form</h2>
+    <form action="Login" name="login" method="post">
       <div class="form-group">
         <label for="email">Enter Email:</label>
         <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
       </div>
       <div class="form-group">
-        <label for="pwd">Create Password:</label>
-        <input type="password" class="form-control" id="pwd" placeholder="Create password" name="pwd"required>
+        <label for="pwd">Enter Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"required>
       </div>
-      <div class="form-group">
-        <label for="pwd">Enter Mobile Number:</label>
-        <input type="text" class="form-control" id="mobile" placeholder="Enter mobile no" name="mobile"required>
-      </div>
+      
       <div class="checkbox">
-        <label><input type="checkbox" name="terms"required> I agree to terms and conditions</label>
+        <label><input type="checkbox" name="rememberme"> Remember Me</label>
       </div>
-      <button type="submit" class="btn btn-info">SignUp</button>
+      <button type="submit" class="btn btn-info">Log In</button>
     </form>
   </div>
 
